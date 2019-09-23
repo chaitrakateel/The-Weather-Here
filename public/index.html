@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Here</title>
+</head>
+<body>
+  <h1>The Weather Here App</h1>
+
+  <a href="http://localhost:3000/index.html">check ins</a> |
+  <a href="http://localhost:3000/checkins/all.html">view checkins</a>
+  <p>I'm sitting out here at Latitude:<span id="latitude"></span>&deg;,  
+    Longitude:<span id="longitude"></span>&deg;</p>
+  <p>
+    The weather here is <span id="summary"></span> with a temperature of <span id="temperature"></span>&deg; C.
+    <br><br>
+    The concentration of small carcinogenic particles(<span id="aq_parameter"></span>) I'm breathing in is 
+    <span id="aq_value"></span> <span id="aq_units"></span> measured from 
+    <span id="aq_city"></span> and 
+    <span id="aq_location"></span>on <span id="aq_date"></span>
+  </p>
+  <script src="sketch.js"></script>
+</body>
+</html>
+
+<!-- <span id="summary"></span>and it feels <span id="temperature"></span>&deg;F outside.<br><br>
+    outside.<br><br>
+    <span id="air"></span>
+  The concentration of small carcinogenic particles(<span id="aq_parameter"></span>) I'm breathing in is 
+  <span id="aq_value"></span> <span id="aq_units"></span> measured from 
+  <span id="aq_city"></span> and 
+  <span id="aq_location"></span>on <span id="aq_date"></span>
+  </p> -->
